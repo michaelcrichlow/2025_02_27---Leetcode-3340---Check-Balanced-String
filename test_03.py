@@ -12,8 +12,8 @@ def isBalanced(num: str) -> bool:
 
 
 def main() -> None:
-    print(isBalanced("1234"))
-    print(isBalanced("24123"))
+    print(isBalanced("1234"))     # False
+    print(isBalanced("24123"))    # True
 
 
 if __name__ == '__main__':
